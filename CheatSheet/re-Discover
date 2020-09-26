@@ -1,0 +1,17 @@
+
+Unit Lenght:
+The unit lenght in Houdini is 1 meter
+Edit > Preferences > Hip File Options > Unit Length(m)
+
+
+Ruler:
+The SideFX Labs has a Ruler Tool which can be usefull for measuring objects
+
+      Shelf > + > Shelvers > SideFX Labs 
+      Shelf > SideFX Labs > Update Toolset:
+            - Release:  509 ( or > )
+            - Update
+       TAB Menu > Ruler     
+
+
+
