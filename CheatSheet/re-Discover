@@ -14,4 +14,12 @@ The SideFX Labs has a Ruler Tool which can be usefull for measuring objects
        TAB Menu > Ruler     
 
 
+Camera Look At
+Make a camera look at a point of intressetn (null object)
+1. Create Camera
+2. Create Null object
+3. Shelf > Constraints > Look At
+4. Select Camera & press Enter
+5. Select Null & press Enter
+6. Press Enter Again
 
