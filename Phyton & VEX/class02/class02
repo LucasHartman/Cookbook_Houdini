@@ -1,0 +1,16 @@
+Function overloading
+When you check the sideFX function documentation you find a function with many function definations
+which means same function with with different arguments (like vector, int of float)
+
+=============================================================================================================
+
+Variables
+
+Variables are like attributes only they are stored locally in the Wrangle
+
+Declaring Variable
+  float   my_var
+  int     my_var
+  vector  my_var
+  
+  
