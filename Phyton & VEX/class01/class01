@@ -30,9 +30,52 @@ Global Variables
 @primnum = current primitive number
 @numprim = totla numer of primitives
 
+===========================================================================================================================
+
+Houdini Attributes
+
+vector3
+@P
+@accel
+@Cd
+@N
+@scale
+@force
+@rest
+@torque
+@up
+@uv
+@v
+
+vector4
+@backtrack
+@orient
+@rot
+
+int
+@id
+@nextid
+@pstate
+
+String
+@name
+@instance
 
 ===========================================================================================================================
 
+Global Variables
+
+- The data type of an sttribute only needs to be specified the fisrt time it's used in the Wrangle
+- Afterwards, it can be called only using the @ without specifying the type
+
+@ptnum   = Current point number
+@numpt   = Total number of points
+@Time    = Current time in seconds
+@Frame   = Current frame
+@primnum = Curent primitive number
+@numprim = Total number of primitives
+
+===========================================================================================================================
 Data Types
 
 Float     = f@attrib
@@ -81,4 +124,13 @@ v@attrib = {1,2,3};
 
 ===========================================================================================================================
 
-Function
+BCC
+
+What is vcc:    vcc is the vex compiler, change vex to machine code
+
+
+===========================================================================================================================
+
+
+
+
