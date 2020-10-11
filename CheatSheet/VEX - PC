@@ -1,0 +1,37 @@
+pcopen
+      This function opens a point cloud file (.pc) 
+      and queues up access to the points contained in it.
+
+      Example: 
+      type variableName = function (input, Pchannel,Vector Position, radius, max points);
+
+      int handle = pcopen(1, "P", @P, radius, max_pts); 
+
+===============================================================================================================================================
+      
+pcfilter
+      get avaerge value of the max points within the raidus
+      
+      Soucrce: https://www.tokeru.com/cgwiki/index.php?title=JoyOfVex20
+      
+      Example:
+      - A grid of points, each point containing @Cd
+      - Use pcopen to get each point and the nearest max points in its radius
+      - pcfilter(pcopen, color);
+      - set max point
+      - change the dist parameter to see the colors blur
+      - color blur becauce the radius gets bigger and thus the avarage of each point color changes
+      
+       int pc = pcopen(0,'P',@P, ch('dist'), chi('maxpoints'));
+      @Cd = pcfilter(pc, 'Cd');
+      
+===============================================================================================================================================
+
+
+
+===============================================================================================================================================
+
+
+
+===============================================================================================================================================
+
